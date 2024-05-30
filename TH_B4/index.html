@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/992b5abfbc.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Bai4</title>
+  </head>
+  <body>
+    <div id="border">
+      <form id="Basic-info" action="">
+        <h2>Basic info</h2>
+        <hr />
+        <div class="p" id="employ_id">
+          <label for="employ_id">Employee ID</label>
+          <label class="lbdata" for="">9</label>
+        </div>
+        <div class="p" id="lname">
+          <label for="lname">Last Name</label>
+          <label class="lbdata" for="">Dodsworth</label>
+        </div>
+        <div class="p" id="name">
+          <label for="fname">First Name</label>
+          <input type="text" name="fname" id="fname" />
+        </div>
+        <div class="p" id="gender">
+          <label for="">Gender</label>
+          <div>
+            <div>
+              <input type="radio" name="gender" id="male" />
+              <label for="male">Male</label>
+            </div>
+            <div>
+              <input type="radio" name="gender" id="female" />
+              <label for="female">Female</label>
+            </div>
+            <div>
+              <input type="radio" name="gender" id="xxx" />
+              <label for="xxx">XXX</label>
+            </div>
+            <div>
+              <input type="radio" name="gender" id="zzz" />
+              <label for="zzz">ZZZ</label>
+            </div>
+          </div>
+        </div>
+        <div class="p" id="title">
+          <label for="title">Title</label>
+          <input type="text" name="title" id="title" />
+        </div>
+        <div class="p" id="suffix">
+          <label for="suffix">Suffix</label>
+          <input type="text" name="suffix" id="suffix" />
+        </div>
+        <div class="p" id="birth-date">
+          <label for="birth-date">Birth Date</label>
+          <input type="datetime-local" name="birth-date" id="birth-date" />
+        </div>
+        <div class="p" id="hire-date">
+          <label for="hire-date">Suffix</label>
+          <input type="datetime-local" name="hire-date" id="hire-date" />
+        </div>
+        <div class="p" id="SSN">
+          <label for="SSN">SSN # (if applicable)</label>
+          <input type="text" name="suffix" id="suffix" />
+        </div>
+        <div class="p" id="report-to">
+          <label for="report-to">Report</label>
+        </div>
+      </form>
+      <br />
+      <form action="" id="contact-info">
+        <h2>Contact Info</h2>
+        <hr />
+        <div class="p" id="email">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="p" id="add">
+          <label for="add">Address</label>
+          <input type="text" name="add" id="add" />
+        </div>
+        <div class="p" id="city">
+          <label for="city">City</label>
+          <input type="text" name="city" id="city" />
+        </div>
+        <div class="p" id="region">
+          <label for="region">Region</label>
+          <input type="text" name="region" id="region" />
+        </div>
+        <div class="p" id="post-code">
+          <label for="post-code">Postal Code</label>
+          <input type="text" name="post-code" id="post-code" />
+        </div>
+        <div class="p" id="country">
+          <label for="country">Country</label>
+          <select name="country" id="country">
+            <option value="russian">Russian Federation</option>
+            <option value="usa">USA</option>
+            <option value="england">England</option>
+          </select>
+        </div>
+        <div class="p" id="us-phone">
+          <label for="us-phone">US Home Phone</label>
+          <input type="tel" name="us-phone" id="us-phone" />
+        </div>
+        <div class="p" id="photo">
+          <label for="photo">Photo</label>
+          <input type="file" name="photo" id="photo" />
+        </div>
+      </form>
+      <form action="" id="optional-info">
+        <h2>Optional Info</h2>
+        <hr />
+        <div class="p" id="notes">
+          <label for="notes">Notes</label>
+          <textarea name="notes" id="notes" rows="6" cols="50"></textarea>
+        </div>
+        <div class="p" id="shift">
+          <label for="shift">Preferred Shift</label>
+          <div>
+            <div>
+              <input type="checkbox" name="regular" id="regular" />
+              <label for="regular">Regular</label>
+            </div>
+            <div>
+              <input type="checkbox" name="gravy-yard" id="gravy-yard" />
+              <label for="gravy-yard">Gravy Yard</label>
+            </div>
+          </div>
+        </div>
+        <div class="p" id="active">
+          <div>
+            <label for="active">Active ?</label>
+          </div>
+          <div><input type="checkbox" name="active" id="active" /></div>
+        </div>
+        <div class="p" id="human-check">
+          <label for="human-check">Are you human?</label>
+        </div>
+      </form>
+      <hr />
+      <div id="footer">
+        <div>
+          <i class="fa-solid fa-square-caret-left"></i>
+          <i class="fa-solid fa-square-caret-right"></i>
+        </div>
+        <div>
+          <i id="submit" class="fa-solid fa-floppy-disk">Submit</i>
+          <i id="cancel" class="fa-solid fa-xmark">Cancel</i>
+        </div>
+      </div>
+      <small>*required</small>
+    </div>
+  </body>
+</html>
